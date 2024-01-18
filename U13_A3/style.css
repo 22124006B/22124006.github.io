@@ -1,0 +1,286 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1000px;
+  color: #FFF;
+  text-align: justify;
+  margin: auto;
+  line-height: 1.2em;
+}
+
+html {
+  min-height: 100%;
+}
+
+a {
+  color: #ffd432;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e5b500;
+}
+
+h1 {
+  color: #fff;
+  font-family: sans-serif
+}
+
+h2 {
+  color: #fff;
+  font-family: sans-serif
+}
+
+h3 {
+  color: #fff;
+  font-family: sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 25%;
+}
+
+p {
+  font-size: 17px
+}
+
+.navbar {
+  width: 48%;
+  display: inline-block;
+  margin-left: 20px float: right;
+  text-align: right;
+}
+
+#rcorner {
+  border-radius: 5px;
+  border: 2px solid #000095;
+  background-color: #fff;
+  padding: 10px;
+}
+
+#relative {
+  position: relative;
+  bottom: 30px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  padding-top: 5px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  font-size: 25px;
+  background: #00006a;
+  text-align: center;
+  padding: 12px
+}
+
+.contract {
+  display: inline-block;
+}
+
+.contract button {
+  border: solid 1px #000092;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #00007e;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+}
+
+.contract button:hover {
+  background-color: #000092;
+}
+
+.contract2 {
+text-align: right;
+}
+
+.about {
+text-align: left;
+}
+
+.about button {
+  border: solid 1px #000092;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #00007e;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.about button:hover {
+  background-color: #000092;
+}
+
+.others {
+text-align: center;
+}
+
+.link {
+  color: #ffd432;
+}
+
+.hotspots {
+  text-align: center;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-align: left;
+  font-family: Arial;
+}
+
+.submit {
+  background-color: #000073;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.submit:hover {
+  background-color: #00008b;
+}
+
+.contactcontainer {
+  border-radius: 5px;
+  background-color: #00005a;
+  padding: 20px;
+}
+
+.product {
+  color: white;
+}
+
+.confirmed {
+  text-align: center;
+  padding: 20px;
+  background-color: #00006f;
+  border-radius: 25px;
+}
+
+.homebutton {
+  background-color: #000087;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.contactus {
+  font-size: 30px;
+  background-color: #000087;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.greeting {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.tariff {
+  color: black;
+}

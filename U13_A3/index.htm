@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile World Station</title>
+    <link href="style.css" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8ea8f8b604.js" crossorigin="anonymous"></script>
+  </head>
+  <body style="background-image: linear-gradient(to bottom, #FFF 120px, #000095 120px, #000095 770px, #00006a 770px, #00006a 1500px, #00005a 1500px, #00005a 1850px, #FFF 2300px, #FFF 2300px);">
+    <main>
+      <div class="navbar">
+        <p><a href="index.htm">
+          <img src="images/banner.png" alt="Mobile World Station" height=85" width="auto">
+          </a>
+        </p>
+      </div>
+      <div class="navbar" id="relative">
+        <a id="rcorner" class="active" href="index.htm">Home</a>
+        <a id="rcorner" href="products.htm">Products</a>
+        <a id="rcorner" href="contactmessage.htm">Contact Us</a>
+      </div>
+<div class="greeting">
+<script>
+var d = new Date();
+var time = d.getHours();
+
+if (time < 12) {
+  document.write("<b>Good morning, welcome to Mobile World Station!</b>");
+}
+else if (time < 18) {
+  document.write("<b>Good afternoon, welcome to Mobile World Station!</b>");
+}
+if (time == 18) {
+  document.write("<b>Good evening, welcome to Mobile World Station!</b>");
+}
+if (time > 18) {
+  document.write("<b>Good evening, welcome to Mobile World Station!</b>");
+}
+</script>
+</div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/phone1.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/phone2.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/phone3.jpeg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <th><h1>Find the perfect contract for you.</h1></th>
+          </tr>
+          <tr class="contract">
+            <td><img src="images/iphone15.jpeg" height="auto" width="300px"></td>
+            <td>
+              <h2>iPhone 15 Pro Max</h2>
+              <h4>£66.62/mo. for 24 mo. at 0% APR</h4>
+              <p>iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars. Titanium has one of the best strength‑to‑weight ratios of any metal, making these the lightest Pro models ever. You’ll notice the difference the moment you pick one up. <a href="https://www.apple.com/uk/iphone-15-pro/">See more.</a></p>
+              <p><button><a class="product" href="https://store.google.com/gb/config/pixel_8_pro?hl=en-GB&selections=eyJwcm9kdWN0RmFtaWx5IjoiY0dsNFpXeGZPRjl3Y204PSJ9">Go to website</button></p>
+            </td>
+          </tr>
+          <tr class="contract">
+            <td>
+              <h2 class="contract2">Pixel 8 Pro</h2>
+              <h4 class="contract2">£49.13/mo. with 24 mo. financing.</h4>
+              <p class="contract2">The new Google Tensor G3 chip is custom-designed with Google AI for cutting-edge photo and video features and smarter ways to help throughout the day, and it makes Pixel 8 Pro super fast and efficient.  <a href="https://store.google.com/product/pixel_8_pro?utm_source=sem_bkws&utm_medium=dr&utm_id=20530040086&gad_source=1&gclid=EAIaIQobChMIrPfqkoTuggMViYuDBx2B6AkMEAAYAiAAEgLYy_D_BwE&gclsrc=aw.ds&pli=1&hl=en-GB">See more.</a></p>
+              <p class="contract2"><button><a class="product" href="https://store.google.com/gb/config/pixel_8_pro?hl=en-GB&selections=eyJwcm9kdWN0RmFtaWx5IjoiY0dsNFpXeGZPRjl3Y204PSJ9">Go to website</button></p>
+            </td>
+            <td><img src="images/pixel8pro.jpeg" height="auto" width="300px"></td>
+          </tr>
+      </div>
+      </table>
+      </div>
+<br><br>
+<div class="about">
+<h2>About Us</h2>
+<p>Mobile World Station takes pride in finding the best deals for people, at no additional charge. We use cutting edge technology, as well as highly trained and skilled staff to find the cheapest prices for the newest gadgets, while offering an easy to use website and affordable technology to all.</p>
+<p>We also find deals on refurbished phones, reducing the amount you're paying by hundreds of pounds!</p>
+<p><button>Check out the newest deals!</button></p>
+</div>
+<br>
+<div class="others" >
+<iframe width="1000px" height="563px" src="https://www.youtube.com/embed/xqyUdNxWazA" title="Introducing iPhone 15 Pro | Apple" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
+<h1><button class="contactus"><a href="contactmessage.htm">Contact Us</button></h1>
+<br>
+</div>
+    </main>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+    </script>
+  </body>
+</html>

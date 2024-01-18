@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile World Station</title>
+    <link href="style.css" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/8ea8f8b604.js" crossorigin="anonymous"></script>
+  </head>
+  <body style="background-image: linear-gradient(to bottom, #FFF 120px, #000095 120px, #000095 700px);">
+    <main>
+      <div class="navbar">
+        <p><a href="index.htm">
+          <img src="images/banner.png" alt="Mobile World Station" height=85" width="auto">
+          </a>
+        </p>
+      </div>
+      <div class="navbar" id="relative">
+        <a id="rcorner" class="active" href="index.htm">Home</a>
+        <a id="rcorner" href="products.htm">Products</a>
+        <a id="rcorner" href="contactmessage.htm">Contact Us</a>
+      </div>
+<p></p>
+<div class="contactcontainer">
+  <form action="contactconfirm.htm">
+    <label><p>First Name</p></label>
+    <input type="text" name="firstname" placeholder="Your name..">
+    <label><p>Last Name</p></label>
+    <input type="text" name="lastname" placeholder="Your last name..">
+
+    <label for="reason"><p>Contact Reason</p></label>
+    <select id="reason" name="reason">
+      <option value="query">Data Query</option>
+      <option value="fees">Fees</option>
+      <option value="report">Bug Report</option>
+    </select>
+
+    <label for="subject"><p>Subject</p></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <p><button class="submit"><a href="contactconfirm.htm">Submit</button></p>
+  </form>
+</div>
+    </main>
+  </body>
+</html>
