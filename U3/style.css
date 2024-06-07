@@ -8,6 +8,10 @@ body {
   line-height: 1.2em;
 }
 
+#active {
+  background-color: #05495e;
+}
+
 html {
   min-height: 100%;
 }
@@ -131,6 +135,7 @@ p {
 .prev,
 .next {
   cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.6);
   position: absolute;
   top: 50%;
   width: auto;
